@@ -1,0 +1,138 @@
+html{
+    background-image: url(img/background.jpg);
+    height: 100vh;
+}
+
+#wrapper{
+    background-color: rgba(0,0,0,.8);
+    min-height: 100vh;
+    border-radius: 1em;
+}
+
+#top-row{
+    width: 100%;
+    border-radius: .75em;
+    border-bottom-color: rgba(132, 172, 194, 1);
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+.top-column{
+
+    color: rgba(132, 172, 194, 1);
+    font-family:sans-serif;
+    /*font-size: 1.9em;*/
+    font-weight: 700;
+    border-radius: .75em;
+    width: 24%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    transition: 200ms;
+    line-height: 2.5;
+    display: inline-block;
+}
+
+.top-column:hover{
+    background-color: rgba(255,255,255,.7);
+    color: rgba(18,55,82,1);
+}
+
+.content-header{
+    color: white;
+    font-family:sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.content-subheader{
+    color: rgba(132, 172, 194, 1);
+    font-family:sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: .75em;
+}
+
+.content-item{
+    color: rgba(132, 172, 194, 1);
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: .75em;
+}
+
+.contact-button{
+    color: rgba(132, 172, 194, 1);
+    text-align: center;
+    font-size: 3em;
+    font-family: sans-serif;
+    font-weight: 700;
+    background-color:  rgba(0,0,0,.7);
+    transition: 200ms;
+}
+
+.contact-button:hover{
+    background-color: rgba(255,255,255,.7);
+    color: rgba(18,55,82,1);
+}
+
+a{
+    text-decoration:underline;
+    color: inherit;
+}
+
+.photo-block{
+    display: inline-block;
+    position: relative;
+    border-radius: 1em;
+    height: 300px;
+    width: 300px;
+    margin-left: 3em;
+    margin-top: 3em;
+}
+
+.block-member{
+    height: 300px;
+    width: 300px;
+    border-radius: 1em;
+    transition: 500ms;
+}
+
+.block-text{
+    color: white;
+    bottom: 0;
+    top: -16px;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    font-family:cursive;
+    font-weight: 600;
+    color: rgba(255,255,255,0);
+    transition: 500ms;
+    height: 100%;
+    width: 100%;
+}
+
+.photo-block:hover .block-text{
+    display: block;
+    color: white;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 5em;
+}
+
+.photo-block:hover  .block-member{
+    border-radius: 5em;
+}
+
+#comptia{
+    width: 200px;
+    height: 200px;
+    float:right;
+}
+
+li{
+    text-align: left;
+}
